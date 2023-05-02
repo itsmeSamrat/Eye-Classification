@@ -11,7 +11,7 @@ st.set_option('deprecation.showfileUploaderEncoding', False)
 
 @st.cache_resource  # this will remember our model and will load it only once
 def cnn_model():
-    model = tf.keras.models.load_model('CNN_model.hdf5')
+    model = tf.keras.models.load_model('streamlit/CNN_model.hdf5')
     return model
 
 
