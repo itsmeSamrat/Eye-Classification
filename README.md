@@ -13,7 +13,7 @@
 
 Artificial Intelligence has come a long way and now it is being used for solving many unique problems. Today, we will be looking into such a problem i.e., identifying the gender of a person through eye image.
 
-In this process, we will be comparing the results of 3 different models. They are:
+In this, we will be comparing the results of 3 different models. They are:
 
 1. K-Nearest Neighbor (KNN)
 2. Multilayer Perception Model (MLP)
