@@ -28,7 +28,7 @@ def main():
 
     st.write("""# Eyes Classification""")
 
-    st.write("""We have two options on how we want to predict the images. Either by uploading an image file or by using an URL of an Image.""")
+    st.write("""The Eye Classification app has two ways of getting the user data, either by uploading an image file or by using an URL of an Image.""")
     st.markdown(
         "------------------------------------------------------------------------")
 

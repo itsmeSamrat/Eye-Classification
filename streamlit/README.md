@@ -1,8 +1,17 @@
+<div align="center">
+    <a href="https://github.com/itsmeSamrat" target="_blank">
+        <img src="https://github.com/itsmeSamrat/Eye-Classification/blob/main/streamlit/streamlit%20app.png?raw=true" 
+        alt="Logo" width="300" height="450">
+    </a>
+</div>
+
 ## Description
 
 This sub-directory is for deployment in streamlit. We have saved the CNN model in hdf5 format and we will be using the model to predict the user given images. The app.py has the main code which has been deployed and the requirements.txt file has all the necessary libraries.
 
 The MLP directory has the MLP model. We can also create a web app using the model. Anyone interested can do so. The code for the MLP based app will also be almost same.
+
+Our Eye Classification app, has two ways of getting the user data, either uploading the image or giving the URL of the eye image. Both ways, are giving us accurate results in the testing phase.
 
 To test the streamlit app, [click here](https://itsmesamrat-eye-classification-streamlitapp-rqmkrl.streamlit.app/).
 
