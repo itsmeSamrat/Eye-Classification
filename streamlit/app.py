@@ -8,12 +8,10 @@ from io import BytesIO
 # to ignore the warning when uploading a file
 st.set_option('deprecation.showfileUploaderEncoding', False)
 
-
 @st.cache_resource  # this will remember our model and will load it only once
 def cnn_model():
     model = tf.keras.models.load_model('streamlit/CNN_model.hdf5')
     return model
-
 
 def predict_cnn(input_image, model):
     size = (100, 100)
@@ -22,7 +20,6 @@ def predict_cnn(input_image, model):
     img_reshape = img[np.newaxis, ...]
     prediction = model.predict(img_reshape)
     return prediction
-
 
 def main():
 
@@ -73,7 +70,6 @@ def main():
             prediction = predict_cnn(image, cnn)
             output = f'This image is of {class_name_cnn[np.argmax(prediction)]}.'
             st.success(output)
-
 
 if __name__ == '__main__':
     main()
