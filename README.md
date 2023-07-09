@@ -23,6 +23,8 @@ After the comparison, we found that, both the MLP and CNN models were able to be
 
 The streamlit sub-directory has the files which we will be using for deployment.
 
+PS: Unfortunately, I encountered difficulties hosting the app in Streamlit for an extended period. The size of the model posed a challenge, and uploading it to GitHub with LFS storage would incur expenses if the bandwidth limit is exceeded.
+
 Follow the steps in [getting started](#getting-started)
 
 ## Getting Started
