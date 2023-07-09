@@ -21,7 +21,7 @@ In this, we will be comparing the results of 3 different models. They are:
 
 After the comparison, we found that, both the MLP and CNN models were able to beat the baseline KNN model. They had overall better accuracy, recall, and precision. However, the simple 3-layer MLP model better performed than the complex 4-layer CNN model. This might be because of the low number of classes in our dataset. Also, looking into the accuracy and loss graph, we can see that, our model was not overfitting or underfitting which is a good sign for a good model.
 
-The streamlit sub-directory has the files which we will be using for deployment. To test the streamlit app, [click here](https://itsmesamrat-eye-classification-streamlitapp-rqmkrl.streamlit.app/).
+The streamlit sub-directory has the files which we will be using for deployment.
 
 Follow the steps in [getting started](#getting-started)
 
